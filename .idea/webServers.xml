@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="51396887-8217-41c3-b8a9-e514a5103ab4" name="qe&lt;">
+        <fileTransfer rootFolder="/home/pamarta/web/sae303" accessType="SFTP" host="22.gremmi.fr" port="22" sshConfigId="720b7e47-0b0d-4609-9573-e71492c3695a" sshConfig="pamarta@22.gremmi.fr:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

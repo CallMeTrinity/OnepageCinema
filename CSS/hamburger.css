@@ -1,0 +1,122 @@
+
+.header li {
+    list-style: none;
+}
+
+.header {
+    color: black;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 100%;
+}
+
+
+
+/**** NAVBAR ****/
+nav {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    font-size: calc(0.5rem + 1.5vw);
+    z-index: 100;
+    transition: ease 0.2s;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#icons {
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 300px;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+#icons:before {
+    content: "\2630";
+}
+
+.active #icons:before {
+    content: "\2715";
+    color: white;
+}
+
+nav ul {
+    position: fixed;
+    z-index: -1;
+    right: -100%;
+    top: 0;
+    flex-direction: column;
+    background: rgba(64, 64, 64, 0.75);
+    width: 100%;
+    text-align: center;
+    transition: 0.25s;
+}
+
+nav li {
+    padding: 3px 0;
+}
+
+nav a:hover {
+    background: var(--color-secondary);
+}
+
+
+
+nav.active ul {
+    right: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul li a{
+        border-bottom: white 1px solid;
+        border-top: 1px white solid;
+        font-size: 1.5rem;
+    }
+
+    nav.active {
+        top: calc(50% - 40px);
+        right: calc(50% - 40px);
+        transition: ease 0.2s;
+    }
+
+    #icons
+    {
+        border: 1px black solid;
+    }
+
+    .active #icons {
+        background: white;
+
+    }
+
+    .active #icons::before {
+        color: black;
+
+    }
+}
+
+a.current {
+    background: white;
+    color: black;
+}

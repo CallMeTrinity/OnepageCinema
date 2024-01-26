@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 160.63 160.63">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 2;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 13.62px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: BebasNeue-Regular, 'Bebas Neue';
+      }
+
+      .cls-6 {
+        font-size: 10.22px;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-7 {
+        fill: #ec331b;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-2" cx="80.31" cy="80.31" r="80.31"/>
+    </clipPath>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g class="cls-3">
+      <rect class="cls-4" x="-.6" y="-17.51" width="505.44" height="178.14"/>
+      <g>
+        <g>
+          <text class="cls-6" transform="translate(41.23 142.6)"><tspan x="0" y="0">[1965, 1976]</tspan></text>
+          <text class="cls-6" transform="translate(120.46 142.6)"><tspan x="0" y="0">(1976, 1987]</tspan></text>
+        </g>
+        <text class="cls-5" transform="translate(18.65 135.44)"><tspan x="0" y="0">0</tspan></text>
+        <text class="cls-5" transform="translate(12.68 13.57)"><tspan x="0" y="0">45</tspan></text>
+        <rect class="cls-7" x="111.32" y="104.36" width="64.56" height="26.62"/>
+        <rect class="cls-7" x="32.8" y="115.12" width="64.75" height="15.86"/>
+        <g>
+          <path class="cls-1" d="m25.91,131.07h472.29"/>
+          <path class="cls-1" d="m25.91,131.07V-2.57"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
